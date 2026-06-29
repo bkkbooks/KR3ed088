@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR3ed088/v1
+canonical_location: https://kanripo.org/bkk/KR3ed088/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 醫方歌括
+  identifiers:
+    krp: KR3ed088
+  tags:
+    kr-categories: KR3ed
+    tls-dates: dat04210
+  source:
+    repository: tls-texts
+    path: data/tls/KR3ed088.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 0, filename: KR3ed088_000.yaml, hash: 'sha256:b96e174257060deaa0072e899caf8364884878d38239a9894cfe3df6e90e9a80'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3ed088_000.markers.yaml, hash: 'sha256:2e408a6044dfc0c633819be8ff6e4272cabf5e89aca39c97e2b78e45422394d8'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3ed088_jc_000-d2.h1s1
+    span:
+    - body
+    - 0
+    - 4348
+  label: 正文
+  type: section
+  level: 1
+hash: sha256:7bc15ca754ca7f29b92cc16836243ae05950a486660b3ad89263f4778c055aaf
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
